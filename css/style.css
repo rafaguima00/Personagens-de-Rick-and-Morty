@@ -1,0 +1,99 @@
+body {
+    background-color: #1D232A;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #15191C;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid white;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+.posicao-imagem {
+    text-align: center;
+}
+
+.cabecalho-img {
+    width: 200px;
+}
+
+.titulo-cabecalho {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+main {
+    margin: 16px;
+    clear: both;
+}
+
+.listaNomes {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.lista-info {
+    background-color: #313d46;
+    width: 22%;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 16px;
+    margin: 30px 1.5%;
+    display: inline-block;
+}
+
+.lista-info div {
+    margin: 10px;
+}
+
+.lista-personagem {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.lista-imagem {
+    width: 100%;
+}
+
+.lista-itens {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #15191C;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid white;
+}
+
+footer p {
+    margin: 16px;
+}
+
+.rodape-img {
+    margin-top: 10px;
+    width: 5%;
+}
+
+.lista-perfil li {
+    display: inline;
+    transition: all;
+}
+
+.link-perfil:hover {
+    transform: scale(1.075);
+}
