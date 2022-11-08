@@ -5,7 +5,6 @@ var elements = '';
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myArr = JSON.parse(this.responseText);
-        console.log(myArr);
 
         for (var i = 0; i < myArr.results.length; i++) {
             elements+= '<li class="lista-info">';
