@@ -9,8 +9,7 @@ xmlhttp.onreadystatechange = function() {
         for (var i = 0; i < myArr.results.length; i++) {
             elements+= '<li class="lista-info">';
             elements+= '<img src="'+myArr.results[i].image+'" class="lista-imagem">';
-            elements+= '<div>'
-            elements+= '<h1 class="lista-personagem">'+myArr.results[i].name+'</h1>';
+            elements+= '<div><h1 class="lista-personagem">'+myArr.results[i].name+'</h1>';
             elements+= '<p class="lista-itens">Status: '+myArr.results[i].status+'</p>';
             elements+= '<p class="lista-itens">Species: '+myArr.results[i].species+'</p>';
             elements+= '<p class="lista-itens">Gender: '+myArr.results[i].gender+'</p>';
