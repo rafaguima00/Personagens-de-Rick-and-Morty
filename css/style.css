@@ -46,7 +46,6 @@ form {
 .input-buscar {
     border-radius: 6px 0 0 6px;
     font-size: 18px;
-    color: white;
 }
 
 .button-buscar {
@@ -76,6 +75,11 @@ form {
     border-radius: 16px;
     margin: 30px 1.5%;
     display: inline-block;
+    transition: 1s;
+}
+
+.lista-info:hover {
+    transform: scale(1.075);
 }
 
 .lista-info div {
@@ -133,9 +137,12 @@ footer p {
     width: 5%;
 }
 
-.lista-perfil li {
+.rodape-links li {
     display: inline;
-    transition: all;
+}
+
+.link-perfil:hover {
+    transform: scale(1.075);
 }
 
 /*Trabalhar com design responsivo depois que codar o restante*/
