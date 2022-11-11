@@ -17,8 +17,9 @@ xmlhttp.onreadystatechange = function() {
             elements+= '</div></li>';
         }
 
-        document.getElementById('listaNomes').innerHTML = elements;
+        document.getElementById('lista-nomes').innerHTML = elements;
     }
 };
+
 xmlhttp.open("GET", url, true);
 xmlhttp.send();

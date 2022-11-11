@@ -11,14 +11,11 @@ header {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid white;
+    align-items: center;
 }
 
 header h1 {
     margin: 10px 0;
-}
-
-.posicao-imagem {
-    text-align: center;
 }
 
 .cabecalho-img {
@@ -26,7 +23,6 @@ header h1 {
 }
 
 .titulo-cabecalho {
-    text-align: center;
     font-size: 32px;
     font-weight: bold;
 }
@@ -35,7 +31,37 @@ main {
     margin: 16px;
 }
 
-.listaNomes {
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscar {
+    padding: 12px;
+    float: left;
+    border: 1px solid white;
+}
+
+.input-buscar {
+    border-radius: 6px 0 0 6px;
+    background-color: #15191C;
+    color: white;
+}
+
+.button-buscar {
+    border-radius: 0 6px 6px 0;
+    text-transform: uppercase;
+    background-color: #15191C;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.lista-nomes {
+    clear: both;
     width: 940px;
     margin: 0 auto;
 }
@@ -65,7 +91,24 @@ main {
 }
 
 .lista-itens {
-    margin: 5px 0;
+    margin: 6px 0;
+}
+
+.buttons-prev-next {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.buttons-prev-next button {
+    margin: 0 20px;
+    text-transform: uppercase;
+    background-color: #15191C;
+    color: white;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 6px;
 }
 
 footer {
@@ -93,6 +136,4 @@ footer p {
     transition: all;
 }
 
-.link-perfil:hover {
-    transform: scale(1.075);
-}
+/*Trabalhar com design responsivo*/

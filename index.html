@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="img/png" href="img/logo2_rm.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Personagens do Rick and Morty</title>
+
+    <script src="https://kit.fontawesome.com/5f6af1e0cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Estudar navegação entre páginas -->
@@ -22,7 +28,19 @@
     </header>
 
     <main>
-        <ul id="listaNomes"></ul>
+        <form action="">
+            <div class="form-style">
+                <input type="text" name="buscar" id="input-buscar" class="buscar input-buscar" placeholder="Digite o nome de um personagem">
+                <button type="submit" class="buscar button-buscar"><i class="fa-solid fa-magnifying-glass"></i> buscar</button>
+            </div>
+        </form>
+
+        <ul id="lista-nomes"></ul>
+
+        <div class="buttons-prev-next">
+            <button type="submit"><i class="fa-solid fa-chevron-left"></i> prev </button>
+            <button type="submit">next <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
     </main>
 
     <footer>
